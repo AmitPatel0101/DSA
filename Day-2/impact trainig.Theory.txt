@@ -1,0 +1,21 @@
+Using static keyword static block will be created and it is a singleton block.
+
+# Static method:- for static method no need to create object static will act as instance or object and using class name we can call static methods.
+
+# Constructor:- Initialization of the objects.
+
+# Conditional statements:- It will check the condition and it will print that block. (if-else, else-if, switch)
+  Conditional statements are used to get outputs in constant time.
+
+# Control statements:-
+ 
+*Types of loops:- 
+for loop:- for(declaration; condition; increment/decrement){
+               }
+while loop:- declaration;
+	     while(condition){
+		increment/decrement
+	     }
+
+for you know the range use for loop
+if you don't know the range prefer to use while loop
