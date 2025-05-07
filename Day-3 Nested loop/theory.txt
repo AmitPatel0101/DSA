@@ -1,0 +1,11 @@
+# Nested loop:-
+A loop inside a loop is called a nested loop.
+For every problem there will be three type of solutions(Brute-force, better and optimal)
+most of the brute solutions will get using two loops, and most of the solutions are solved using 2 loop.
+
+# Pattern printing:-
+
+1. Print number of rows.
+2. Print number of rows.
+3. Print what to print.
+4. Print what not to print.
