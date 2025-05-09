@@ -1,0 +1,87 @@
+# Arrays :-
+- Collection of similar type of data in continuous allocation.
+   Normal declaration   int a=10;
+   of variable:-	int b=12;
+		        int c=3;
+
+# Array declaration:-  int[] arr = {10,13,3}
+
+--> All the reference name will be store in stack memory and all the values which were assigned to those variables will be store in heap memory.
+--> All the blocks having same dat6a type if all the block have same data type we why to create multiple variables, simply we create an array to store multiple values.
+--> If variable A stored at address 100, than the second value of the array should be allocated at 104.
+
+
+# Syntax:-
+
+-> Declaration and initialization happened at same line.
+    class Main{
+      public static void main(String[] args) {
+        int[] arr = {1,2,3,4,5};
+      }
+    }
+
+-> Declaration is happened in first line and initialization happened in second line.
+
+    class arrayDecaration{
+      public static void main(String[] args) {
+        int[] arr;
+        arr = new int[]{1, 2, 3, 4, 5};
+      }
+    }
+
+
+# If you want to get the data previously we stored all the data values in separate variables if you want to get the data you can simply print the variables and in array we have to print the data using index values.
+-> Index values by default it will start with 0.
+-> To get the size of array, we have to use array.length.
+-> To get the length of string , we have to use str.length(). 
+
+-> Types of output format:-
+  1. We can use simple for loop to get the output.
+  2. Using for each loop.
+  3. Arrays.toString(arr) 
+
+-> toString is an inbuilt to print array values.
+-> Internally toString contain for loop and it will print along with open and closed brackets followed by commas.
+
+# CamelCase and SnakeCase :-
+ camel case:- oddCount
+ snack case:- odd_count
+-> Java strictly follows CamelCase.
+
+Q.) In a given array count the number of odd numbers and even numbers.
+
+class countOddEven{
+    public static void main(String[] args) {
+        int[] arr = {1,2,3,4,5,6,7,9};
+        int n= arr.length;
+        int odd=0;
+        int even=0;
+        for(int i=0;i<n;i++){
+            if (arr[i]%2==0){
+                even=even+1;
+            }else{
+                odd=odd+1;
+            }
+        }
+        System.out.println("Even Count is " +even+" Odd Count is "+odd);
+    }
+}
+
+# Declaring and initializing an array with size:-
+ - Once you created an array along with size it can't be modifies, the size will be fixed.
+ - new keyword helps to create object space for the array.
+ - If the array type is integer by default all the values will be zero and if the array type is string all the default values will be null.
+
+# Primitive datatypes are can't be splited or divided.
+   Eg. int, float, char.
+# Non-primitive datatypes can be splited or divided.
+   Eg. strings and all use and define objects.
+       class Node{
+ 	 int data;
+    	 Node next;
+       }
+
+
+Q.) Check wheather the given array is sorted or not
+Q.) Check wheather the element is there are not
+Q.) [1,0,1,0,1,0] move all zeroes to right side[1,1,1,0,0,0]
