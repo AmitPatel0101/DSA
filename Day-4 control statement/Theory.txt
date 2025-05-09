@@ -1,0 +1,26 @@
+# Switch case:-
+- Cases have to be the same type as expression, must be a constant or litera
+- Duplicate case values are not allowed
+- break is use to terminate the sequence
+- if break is not used, it will continue to next case
+- default will execute when none of the above does
+- if default is not at the end, put break after it
+
+# Syntax:-
+class main{
+    public static void main(String[] args) {
+        switch(expression){
+            case :
+                statement;
+                break;
+            default:
+                statement;
+        }
+    }
+}
+
+# ternary operator;
+ # for each loop:-
+ - whenever we don't have length and whenever we don't have index value, you have to use for each loop and after that 
+ - mostly will use for each loop in collections 
+Eg. list, set, map
