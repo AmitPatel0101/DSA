@@ -1,0 +1,27 @@
+# Next Greater Element :-
+ [2,8,1,4,3,6]
+ [8,-1,4,6,6,-1]
+
+
+-> Array having fixed size, we can't increase the size as well as can't decrease the size.
+-> If array size is 5, maximum we can store 5 elements. If we want to store 6th element we have to create one more array with extra space but we can't increase the size. But in array list the size will be Dynamic. You can increase the size as well as decrease it.
+-> List is an interface and the angular brackets are generics and ArrayList belongs to collection framework and we have to use wraper class followed by ArrayListName.
+
+class main{
+    public static void main(String[] args) {
+        List<Wraper class of list type> ArrayListName = new ArrayList<>();
+        List<Integer> arr = new ArrayList<>();
+    }
+}
+
+-> Interface contains incomplete methods and class contains complete methods. 
+-> An ArrayList is a class we have to import ArrayList class.
+
+-> In ArrayList if the Array got initialised with size 2 and if we are trying to add third element the size of the list will be doubled, and the size of the array is 4; and we are trying to add 5the element than the size will be doubled , 8. If the array size is 8 and we remove 4 elements and if we trying to remove 5th element the array size will becomes half.
+
+Eg. arr[4] =1,2,3,4 5th element added
+    size will be arr[8]
+    arr[8] = 1,2,3,4,5,6,7,8
+    arr[4]
+
+Sort the array based on end type.
